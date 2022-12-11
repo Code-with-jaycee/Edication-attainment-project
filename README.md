@@ -25,6 +25,7 @@
 
 <h1>
 Hi I'm Josphat 
+</div>
 
 <h4>Consider the Education_attainment.csv data-set. Column descriptions for this data are as follows:</h4>
 
@@ -77,6 +78,27 @@ Percentages for Women vs Men = 50.0%
 ```
 c. Analyze the data for the two most commonly awarded levels of educational attainment awarded between 2000-2010 (inclusive).<br><br>
 
+```
+
+Education_Award= Education_data[
+      
+        (Education_data["Year"] >= 2000) &
+        (Education_data["Year"]<= 2010)
+        
+    ]
+
+Education_Award["Min degree"].value_counts()
+```
+
+<h1>Output</h1>
+
+```
+high school    21
+associate's    21
+bachelor's     21
+master's       21
+Name: Min degree, dtype: int64
+```
 d. Compare the difference between total percent of bachelor's degrees received in 2000 to those in 2010.<br><br>
 
 e. Derive descriptive statistics for this data-set.<br><br>
