@@ -101,7 +101,48 @@ Name: Min degree, dtype: int64
 ```
 d. Compare the difference between total percent of bachelor's degrees received in 2000 to those in 2010.<br><br>
 
+```
+Bachelor_degree_2000 = len(Education_Award[
+        (Education_Award["Min degree"] == "bachelor's") &
+        (Education_Award["Year"] == 2000)
+        ])
+
+Bachelor_degree_2010 = len(Education_Award[
+            (Education_Award["Min degree"] == "bachelor's")&
+            (Education_Award["Year"] == 2010)
+
+
+])
+
+Total = len(Education_Award[Education_Award["Min degree"]== "bachelor's"])
+Total_Bach_degree_Perc = (Bachelor_degree_2000/Total *100) - (Bachelor_degree_2010/Total * 100)
+
+print(f"Difference: {Total_Bach_degree_Perc}")
+
+```
+
+<h1>Output</h1>
+
+```
+Difference: 0.0
+```
 e. Derive descriptive statistics for this data-set.<br><br>
+
+```
+Education_Award.describe()
+```
+
+```
+        Year	    White	    Black
+count 84.000000	    84.000000	84.000000
+mean 2006.428571	45.828571	34.280952
+std	 3.082347	    31.381913	32.202235
+min  2000.000000	4.900000	1.100000
+25%	 2005.000000	25.625000	12.200000
+50%	 2007.000000	41.150000	22.250000
+75%	 2009.000000	63.075000	47.450000
+max	 2010.000000	95.200000	91.100000
+```
 f. Using the Seaborn library :<br><br>
 
 
