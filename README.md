@@ -15,9 +15,40 @@
 
 <h5><b>a. Read this data into Python Pandas.</b></h5>
 <br>
+
+```
+#imports
+import pandas as pd
+```
+```
+Education_data = pd.read_csv("Education_attainment.csv")
+Education_data
+```
+
 b. Determine the percentages for women vs. men having earned a Bachelor's Degree in 1980.
 <br><br>
 
+```
+Women = len(Education_data[
+        (Education_data["Sex"] == "F" ) &
+        (Education_data["Year"] == 1980) 
+       
+        ]
+)
+Men = len(Education_data[
+    (Education_data["Sex"] == "M") &
+    (Education_data["Year"] == 1980) 
+    
+])
+Percentage = Women/(Women + Men) * 100
+
+print(f"Percentages for Women vs Men = {Percentage}%")
+```
+<h2>Output</h2>
+
+```
+Percentages for Women vs Men = 50.0%
+```
 c. Analyze the data for the two most commonly awarded levels of educational attainment awarded between 2000-2010 (inclusive).<br><br>
 
 d. Compare the difference between total percent of bachelor's degrees received in 2000 to those in 2010.<br><br>
