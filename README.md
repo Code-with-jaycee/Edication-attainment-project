@@ -1,5 +1,31 @@
 # Edication-attainment-project
 
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <div id="badges">
+  <a href="https://www.linkedin.com/in/josphat-rono-61a075232/">
+    <img src="https://img.shields.io/badge/-Jaycee-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="mailto:jayceecoder@gmail.com">
+    <img src="https://img.shields.io/badge/-jayceecoder-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)]" alt="Youtube Badge"/>
+  </a>
+  <a href="https://twitter.com/CodeJaycee">
+    <img src="https://img.shields.io/badge/-@CodeJaycee-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/CodeJaycee" alt="Twitter Badge"/>
+  </a>
+  <a href="https://www.youtube.com/channel/UCyH8q1BeRAPtaVm_iwsiHpw">
+    <img src="https://img.shields.io/badge/-Code_with_Jaycee-e74c3c?style=flat&labelColor=e74c3c&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  <a href="https://www.instagram.com/programmer_jaycee/">
+    <img src="https://img.shields.io/badge/-@programmer_jaycee-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  
+  
+</div>
+<img src="https://komarev.com/ghpvc/?username=Code-with-jaycee&style=flat-square&color=blue" alt=""/>
+
+<h1>
+Hi I'm Josphat 
+
 <h4>Consider the Education_attainment.csv data-set. Column descriptions for this data are as follows:</h4>
 
 ◦ Year: The year this row represents. Note there may be more than one row for the same year to show the percent breakdowns by sex.<br>
