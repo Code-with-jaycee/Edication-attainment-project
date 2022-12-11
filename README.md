@@ -133,7 +133,7 @@ Education_Award.describe()
 ```
 
 ```
-        Year	White	Black
+        Year	    White	    Black
 count	84.000000	84.000000	84.000000
 mean	2006.428571	45.828571	34.280952
 std	3.082347	31.381913	32.202235
